@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(0, 255, 255, 0.534);
+    max-width:700px;
+    max-height:100px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    height: 571px;
+    background-color: aliceblue;
+    top: 50%;
+    left:90%;
+    border-radius: 0px 10px 10px 0px;
+    transform: translate(207%,-61%);
+}
+
+picture > img{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    transform: translate(102%,39%);
+    width: 350px;
+    height: 571px;
+    top: 50%;
+    left:41%;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px;
+    text-align:start;
+    padding-left: 30px;
+
+}
+
+h3{
+    color: rgba(0, 0, 0, 0.514);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: start;
+    padding-left: 30px;
+}
+.preco > h1{
+    color: green;
+    font-size: 30px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    padding-top: 22px;
+    padding-left: 62px;
+}
+.ex{
+    color: darkgray
+}
+p{
+    padding: 10px;
+    text-align: end;
+}
+.chanel{
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+}
+.chanel:hover{
+    text-decoration: underline  rgba(0, 102, 255, 0.466);
+}
+
+.perfume{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+.button{
+    border-radius: 10px;
+    border: 0;
+    background-color: green;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 82%;
+    left: 12%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+.button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to bottom,green,rgba(173, 216, 230, 0.486));
+}
+
+
+
+
+
+
+.attribution { font-size: 20px; text-align: end;
+position: relative;
+text-align: left;
+left: 50%;
+top: 20%;
+
+transform: translate(20%, -1417%);
+}
+.attribution a { color: hsl(228, 45%, 44%);
+    text-decoration: none;
+} 
+.attribution a:hover{
+    text-decoration: underline hsla(228, 45%, 44%, 0.61);
+}
